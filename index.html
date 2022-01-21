@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="en"> 
+<html lang="fr"> 
   <head>
-    <link href="C:\Users\isa\Documents\Marie\PremierProjet\styles.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <title>Booki</title>
     <meta charset="UTF-8">
@@ -13,55 +13,42 @@
   <body>
     <header>
       <nav id="menu">
-        <img src=C:\Users\isa\Documents\Marie\PremierProjet\images\logo\Booki.png alt=Logo/><!--logo est centre sur la version mobile-->
+        <img src="images/logo/Booki@3x.png" alt="Logo Booki"/><!--logo est centre sur la version mobile-->
         <ul> 
-          <li><a href="#Hébergements">Hébergements</a></li><!--span?? pour bordure bleue qui s'affiche au survol, en haut version desktop, en bas version mobile -->
-          <li><a href="#Activités">Activités</a></li>
+          <li><a href="#accommodations">Hébergements</a></li><!--bordure bleue qui s'affiche au survol, en haut version desktop, en bas version mobile -->
+          <li><a href="#activities">Activités</a></li>
         </ul>
       </nav>
     </header>
     <main>
+      <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
       <section id="search">
-        <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
         <p>En plein centre ville ou en pleine nature</p>
-        <form id="form" action="#" method="post"> 
+        <form id="form" action="#" method="get"> 
           <i class="fas fa-map-marker-alt"></i>
           <input placeholder="Marseille, France" id="search" type="search" name="search">
           <button type="submit">Rechercher</button>
+          <strong>Filtres</strong>
+          <i class="fas fa-money-bill-wave"></i>
+          <button type="button">Economique</button>
+          <i class="fas fa-child"></i>
+          <button type="button">Familial</button>
+          <i class="fas fa-heart"></i>
+          <button type="button">Romantique</button>
+          <i class="fas fa-dog"></i>
+          <button type="button">Animaux autorisés</button>
         </form> 
-        <section id="filters">
-          <h2>Filtres</h2>
-          <form action="#" method="post">
-            <i class="fas fa-money-bill-wave"></i>
-            <button type="button">Economique</button>
-          </form>
-          <form action="#" method="post">
-            <i class="fas fa-child"></i>
-            <button type="button">Familial</button>
-          </form>
-          <form action="#" method="post">
-            <i class="fas fa-heart"></i>
-            <button type="button">Romantique</button>
-          </form>
-          <form action="#" method="post">
-            <i class="fas fa-dog"></i>
-            <button type="button">Animaux autorisés</button>
-          </form>
-        </section>
         <p><i class="fas fa-info-circle"></i>Plus de 500 logements sont disponibles dans cette ville</p>
       </section>
-      <section id="Hébergements">
-        <section id="accommodations"><!--la section hébergement à marseille devra avoir un fond gris en desktop mais un fond banc en mobile-->
-          <h1>Hébergements à Marseille</h1>
-          <div class="accommodations-1">
+      <section id="accommodations">
+        <section id="accommodations-1"><!--la section hébergement à marseille devra avoir un fond gris en desktop mais un fond banc en mobile-->
+          <h2>Hébergements à Marseille</h2>
             <a href="#">
               <article><!--rendre la totalité de l'article cliquable avec la balise <a href="#">-->
-                <img src="C:\Users\isa\Documents\Marie\PremierProjet\images\hebergements\4_small\marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Photo Auberge La Cannebière" class="fotos-1">
+                <img src="images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Photo Auberge La Cannebière" class="fotos-1">
                 <h3>Auberge La Cannebière</h3>
                 <p>Nuit à partir de <strong>25€</strong></p>
-                <span>
-                  <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
-                </span><!--les petites étoiles de notation-->
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>
               </article>
             </a>
             <a>
@@ -84,8 +71,6 @@
                 </span><!--les petites étoiles de notation-->
               </article>
             </a>  
-          </div>
-          <div class="accommodations-1">
             <a>
               <article>
                 <img>
@@ -116,12 +101,11 @@
                 </span><!--les petites étoiles de notation-->
               </article>
             </a>
-          </div>
-          <a href="#"><h2>Afficher plus</h2></a>
+          <a href="#"><strong>Afficher plus</strong></a>
         </section>
         <section id="popular"><!--cet article "les plus populaires" doit s'afficher avant "hébergements à marseille ds la version mobile"-->
           <div>
-            <h1>Les plus populaires</h1>
+            <h2>Les plus populaires</h2>
             <i class="fas fa-chart-line"></i>
           </div>
           <a>
@@ -169,8 +153,8 @@
           </a>
         </section>
       </section>
-      <section id="Activités">
-        <h1>Activités à Marseille</h1>
+      <section id="activities">
+        <h2>Activités à Marseille</h2>
         <div class="activities">
           <a>
             <article>
