@@ -9,7 +9,7 @@ h1 {font-size:20px;}
 h2 {font-size: 20px;}
 h3 {font-size: 13.5px; }
 h4 {font-size:13px;}
-a:link { text-decoration: none;}
+a:link { text-decoration: none; color: black;}
 a:visited { text-decoration: none; color:black}
 a:active { text-decoration: none;}
 /*Header*/
@@ -85,6 +85,10 @@ main h1 {
     width: 28%;
     padding: 20px;
 }
+section #popular h2 {
+    display: flex;
+    justify-content: space-between;
+}
 .fotos-2 {
     width: 200px;
 }
@@ -107,6 +111,7 @@ footer {
     background-color: #F2F2F2;
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
-      }
+    justify-content: space-between;
+    padding: 20px;
+       }
 
