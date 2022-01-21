@@ -50,32 +50,37 @@ nav a:hover {
     display: flex;
     justify-content: left;
     align-items: center;
+    flex-wrap: wrap;
 }
 /*Accommodations*/
 #accommodations {
     display: flex;
     justify-content: left;
+    flex-wrap: wrap;
 }
-#accommodations {
-    background-color: #F2F2F2;
-    width: 70%;
-}
-.accommodations-1 {
+#accommodations-1 {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 100%;
+    flex-wrap: wrap;
+    width: 70%;
+    background-color: #F2F2F2;
 }
 .fotos-1 {
     width:200px;
-    height:100px;
 }
 /*Popular*/
 #popular {
     background-color: #F2F2F2;
     width: 30%;
 }
+.fotos-2 {
+    width: 200px;
+}
 /*Activities*/
+.fotos-3{
+    width: 200px;
+}
 /*Footer*/
 footer {
     background-color: #F2F2F2;
