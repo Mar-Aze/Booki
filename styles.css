@@ -2,7 +2,7 @@
 body {
     font-family: 'Raleway', verdana, sans-serif;
     margin: 0;
-    }
+     }
 /*Texts*/    
 p {font-size: 12px;}
 h1 {font-size:20px;}
@@ -32,7 +32,7 @@ nav li {
     font-size: 12px;
     border-top: transparent solid 2px;
     padding: 30px 15px 30px 15px;
-     }
+    }
 nav a:visited {
     color: black;
 }
@@ -43,28 +43,37 @@ nav a:hover {
     margin: 0 20px 0 20px;
     }
 /*Main*/
-/*Section Search*/
-/*Form*/
-/*Filters*/
-#filters{
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    flex-wrap: wrap;
+main h1 {
+    margin: 20px;
 }
-/*Accommodations*/
+/*Search*/
+#search {
+    margin: 20px;
+}
+/*Form*/
+/*Accommodations Marseille*/
 #accommodations {
     display: flex;
-    justify-content: left;
-    flex-wrap: wrap;
+    margin: 20px;
 }
 #accommodations-1 {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
+    flex-direction: column;
     width: 70%;
     background-color: #F2F2F2;
+    padding: 20px;
+   }
+#accommodations-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 0 20px 0;
+}
+#accommodations-3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 0 20px 0;
 }
 .fotos-1 {
     width:200px;
@@ -72,12 +81,24 @@ nav a:hover {
 /*Popular*/
 #popular {
     background-color: #F2F2F2;
-    width: 30%;
+    margin-left: 16px;
+    width: 28%;
+    padding: 20px;
 }
 .fotos-2 {
     width: 200px;
 }
 /*Activities*/
+#activities h2 {
+    margin: 20px;
+}
+.activities {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 20px;
+    
+}
 .fotos-3{
     width: 200px;
 }
@@ -86,6 +107,6 @@ footer {
     background-color: #F2F2F2;
     width: 100%;
     display: flex;
-    justify-content: left;
-}
+    justify-content: space-evenly;
+      }
 
