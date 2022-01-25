@@ -70,7 +70,7 @@ form {
 #form {
     display: flex;
     margin-bottom: 20px;
-    }
+}
 #form i {
     border: solid #F2F2F2 10px;
     border-radius: 10px 0 0 10px;
@@ -82,7 +82,7 @@ form {
     font-family: 'Raleway', verdana, sans-serif;
     font-weight: bold;
     color: black;
-    border: solid #F2F2F2 2px;
+    border: solid #F2F2F2 1px;
     border-right: transparent solid 2px;
     margin: 0;
 }
@@ -96,6 +96,7 @@ form {
 }
 #form ::placeholder {
     color: black;
+    padding-left: 8px;
 }
 #filters {
     display: flex;
