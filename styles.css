@@ -2,7 +2,7 @@
 body {
     font-family: 'Raleway', verdana, sans-serif;
     margin: 0;
-     }
+}
 /*Texts*/    
 p {font-size: 12px;}
 h1 {font-size:20px;}
@@ -12,6 +12,8 @@ h4 {font-size:13px;}
 a:link { text-decoration: none; color: black;}
 a:visited { text-decoration: none; color:black}
 a:active { text-decoration: none;}
+/*images*/
+img {object-fit: cover;}
 /*Header*/
 nav { 
     display: flex;
@@ -52,7 +54,7 @@ main article {
     border-radius: 5%;
     box-shadow: 1px 2px 2px 1px #e6e4e4;
 }
-article:hover {
+main article:hover {
     background-color: #DEEBFF;
 }
 /*Search*/
@@ -76,14 +78,17 @@ article:hover {
    }
 #accommodations-1 h3 {
     padding-left: 16px;
+    padding-bottom: 5px;
+    margin: 0;
 }
 #accommodations-1 p {
     padding-left: 16px;
     margin: 0;
 }
 #accommodations-1 span {
-    padding: 0 0 16px 16px;
-}
+    padding-left: 16px;
+    margin: 0;
+    }
 #accommodations-2 {
     display: flex;
     flex-wrap: wrap;
@@ -100,7 +105,7 @@ article:hover {
     width:250px;
     height: 150PX;
     border-radius: 5% 5% 0 0;
-    padding: 4px;
+    padding: 5px;
     object-fit: cover;
 }
 /*icones etoiles*/
@@ -131,7 +136,6 @@ article:hover {
 }
 #popular p {
     padding-left: 16px;
-    margin: 0;
 }
 #popular span {
     padding-left: 16px;
@@ -139,29 +143,36 @@ article:hover {
 #popular article {
     display: flex;
     margin: 40px 0 20Px 0;
-}
+    box-sizing: border-box;
+    }
 .fotos-2 {
     width: 150px;
     height: 150px;
     border-radius: 5% 0 0 5%;
-    padding: 4px;
+    padding: 5px;
     object-fit: cover;
 }
 /*Activities*/
 #activities h2 {
     margin: 20px;
 }
+#activities h3 {
+    padding-left: 16px;
+    padding-bottom: 16px;
+}
 .activities {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 100%;
-    margin: 20px;
-    
+    margin: 20px;  
 }
 .fotos-3{
-    width: 200px;
-    height: auto;
+    width: 250px;
+    height: 400px;
     object-fit: cover;
+    border-radius: 5% 5% 0 0;
+}
+#activities img{
     border-radius: 5% 5% 0 0;
 }
 /*Footer*/
