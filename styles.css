@@ -46,12 +46,23 @@ nav a:hover {
 main h1 {
     margin: 20px;
 }
+main article {
+    background-color: white;
+    border-radius: 5%;
+}
 /*Search*/
 #search {
     margin: 20px;
 }
 /*Form*/
 /*Accommodations Marseille*/
+.fas   {
+    color: #0065FC;
+}
+.far  {
+    color: #F2F2F2;
+    
+}
 #accommodations {
     display: flex;
     margin: 20px;
@@ -59,9 +70,11 @@ main h1 {
 #accommodations-1 {
     display: flex;
     flex-direction: column;
-    width: 70%;
+    flex-grow: 2;
+    width: auto;
     background-color: #F2F2F2;
     padding: 20px;
+    border-radius: 3%;
    }
 #accommodations-2 {
     display: flex;
@@ -76,15 +89,19 @@ main h1 {
     padding: 20px 0 20px 0;
 }
 .fotos-1 {
-    width:200px;
+    width:250px;
     height: auto;
+    border-radius: 5% 5% 0 0;
+    padding: 4px;
 }
 /*Popular*/
 #popular {
     background-color: #F2F2F2;
+    flex-grow: 1;
     margin-left: 16px;
-    width: 28%;
+    width: auto;
     padding: 20px;
+    border-radius: 3%;
 }
 section #popular h2 {
     display: flex;
@@ -127,11 +144,26 @@ body{
 nav {
     flex-direction: column;
 }
+nav li {
+    border-bottom: solid #F2F2F2 2px;
+}
+nav a:hover {
+    border-bottom: solid #0065FC 2px;
+    border-top: transparent solid 2px;
+}
+#search {
+    flex-direction: column;
+}
+#filters {
+    display: flex;
+    flex-direction: column;
+}
 #accommodations {
     flex-direction: column-reverse;
 }
 #popular {
     width: auto;
+    border-radius: 0;
 }
 #accommodations-1 {
     background-color: white;
