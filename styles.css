@@ -282,8 +282,14 @@ body{
 nav {
     flex-direction: column;
 }
+nav ul {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+}
 nav li {
     border-bottom: solid #F2F2F2 2px;
+    width: 100%;
 }
 nav a:hover {
     border-bottom: solid #0065FC 2px;
@@ -309,6 +315,7 @@ nav a:hover {
 }    
 #accommodations {
     flex-direction: column-reverse;
+    width: auto;
 }
 #popular {
     width: auto;
