@@ -75,8 +75,10 @@ form {
     border: solid #F2F2F2 10px;
     border-radius: 10px 0 0 10px;
     background-color:#F2F2F2;
-    font-size: 80%;
+    font-size: 100%;
     margin: 0;
+    width: 20px;
+    text-align: center;
 }
 #form input {
     font-family: 'Raleway', verdana, sans-serif;
@@ -85,6 +87,7 @@ form {
     border: solid #F2F2F2 1px;
     border-right: transparent solid 2px;
     margin: 0;
+    padding-left: 8px;
 }
 #form button {
     background-color: #0065FC;
@@ -94,34 +97,40 @@ form {
     border: solid #0065FC 10px;
     border-radius: 0 10px 10px 0;
 }
+#optionnal {
+    display: none;
+}
 #form ::placeholder {
     color: black;
-    padding-left: 8px;
 }
 #filters {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     align-items: baseline; 
     gap: 20px;   
 }
 #filters i {
-    border: solid #DEEBFF 10px;
+    border: solid #DEEBFF 8px;
     border-radius: 100%;
     background-color:#DEEBFF;
-    font-size: 80%;
+    font-size: 100%;
     color: #0065FC;
     margin: 0;
     padding: 5px;
+    position: relative;
+    left: 15px;
+
 }
 #filters button {
     background-color: white;
     font-family: 'Raleway', verdana, sans-serif;
     font-weight: bold;
     border: solid #F2F2F2 2px;
-    border-left: transparent solid 2px;
-    border-radius: 0 50px 50px 0;
+    border-radius: 2px 50px 50px 2px;
     margin: 0;
     padding: 10px;
+    padding-left: 15px;
 }
 #filters button:hover {
     color:#0065FC;
@@ -275,6 +284,17 @@ nav a:hover {
     display: flex;
     flex-direction: column;
 }
+#form button {
+    display: none;
+}
+#form #optionnal {
+    display: inline;
+    position: relative;
+    background-color: #0065FC;
+    color: white;
+    border: solid #0065FC 10px;
+    border-radius: 0 10px 10px 0;
+}    
 #accommodations {
     flex-direction: column-reverse;
 }
