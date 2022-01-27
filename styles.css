@@ -281,20 +281,32 @@ p i {
 #activities h3 {
     padding-left: 16px;
     }
-.activities {
+#all-activities {
     display: flex;
     justify-content: space-between;
     margin: 20px;  
     width: auto;
 }
+.activities {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: auto;
+    margin: 0;
+}
+#activities article {
+    width: 260px;
+    height: auto;
+}
 .fotos-3{
-    width: 250px;
-    height: 400px;
+    width: 260px;
+    height: 350px;
     object-fit: cover;
     border-radius: 5% 5% 0 0;
 }
 #activities img{
     border-radius: 5% 5% 0 0;
+    width: 260px;
 }
 /*Footer*/
 footer {
@@ -359,8 +371,11 @@ nav a:hover {
 #accommodations-1 {
     background-color: white;
 }
-.activities{
+#all-activities {
     flex-direction: column;
+    width: 100%;
+    gap: 10px;
+    
 }
 footer {
     flex-direction: column;
