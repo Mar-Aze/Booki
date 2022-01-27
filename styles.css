@@ -363,6 +363,7 @@ nav a:hover {
 #accommodations {
     flex-direction: column-reverse;
     width: auto;
+    gap: 20px;
 }
 .fotos-1 {
     width: 250px;
@@ -378,12 +379,17 @@ nav a:hover {
 #accommodations-1 {
     background-color: white;
     justify-content: center;
+    gap:20px;
+}
+#accommodations-2 #accommodations-3 {
+    gap:20px;
+    justify-content: space-between;
 }
 #all-activities {
     flex-direction: column;
     align-items: baseline;
     width: 100%;
-    gap: 10px;
+    gap: 20px;
 }
 #activities img {
     height: 100px;
