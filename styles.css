@@ -168,8 +168,13 @@ p i {
     font-size: 65%;
 }
 #accommodations .grey  {
-    color: #f2f2f2;
+    color: #dbdada;
     font-size: 65%;  
+}
+#accommodations .arrow {
+    color:black;
+    font-size: 100%;
+    padding-right: 16px;
 }
 /*Accommodations Marseille*/
 #accommodations-1 {
