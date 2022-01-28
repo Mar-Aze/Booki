@@ -55,11 +55,12 @@ h1 + p {
 }
 main article {
     background-color: white;
-    border-radius: 5%;
+    border-radius: 12px;
     box-shadow: 1px 2px 2px 1px #e6e4e4;
     width: 100%;
     margin: 0;
-    padding-bottom: 5px;
+    padding: 0;
+    box-sizing: border-box;
 }
 main article:hover {
     background-color: #DEEBFF;
@@ -154,7 +155,7 @@ p i {
     color: white ;
     font-size: 150%;
     border: solid #F2F2F2 2px;
-    border-radius: 100%;
+    border-radius: 50px;
 }
 /*Accommodations*/
 #accommodations {
@@ -180,63 +181,55 @@ p i {
 #accommodations-1 {
     display: flex;
     flex-direction: column;
-    flex-grow: 2;
-    width: auto;
+    width: 70%;
     background-color: #F2F2F2;
     padding: 30px;
-    border-radius: 3%;
+    border-radius: 12px;
     gap: 20px;
 }
+
 #accommodations-1 h2 {
-    margin: 15px 0 10px 15px;
-}
-#accommodations-1 h3 {
-    padding-left: 16px;
-    padding-bottom: 5px;
     margin: 0;
 }
-#accommodations-1 p {
-    padding-left: 16px;
+
+.description {
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;  
+    padding: 4px 12px 12px 12px;
     margin: 0;
+    line-height: 1px;
 }
-#accommodations-1 span {
-    padding-left: 16px;
-}
+
 .fotos-1 {
-    width:200px;
-    height: 100PX;
-    border-radius: 8% 8% 0 0;
-    padding: 5px;
+    width:100%;
+    height: 120px;
+    border-radius: 12px 12px 0 0;
+    padding: 6px 6px 0 6px;
+    box-sizing: border-box;
     object-fit: cover;
 }
-/*First Line*/
+
 #accommodations-2 {
     display: flex;
     flex-wrap: wrap;
-    padding: 0;
-    gap: 50px;
-    width: auto;
-    margin: auto;
 }
-/*Second Line*/
-#accommodations-3 {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0;
-    gap: 50px;
-    width: auto;
-    margin: auto;
+
+#accommodations-2 a {
+    width: 33%;  
+    box-sizing: border-box;
+    padding: 0 8px 8px 0;
 }
+
 /*Popular*/
 #popular {
     display: flex;
     flex-direction: column;
     background-color: #F2F2F2;
-    flex-grow: 1;
-    margin: auto;
-    width: auto;
+    margin: 0;
+    width: 30%;
     padding: 30px;
-    border-radius: 5%;
+    border-radius: 12px;
     justify-content: space-between;
     gap: 20px;
 }
@@ -273,7 +266,7 @@ p i {
 .fotos-2 {
     width: 125px;
     height: 125px;
-    border-radius: 5% 0 0 5%;
+    border-radius: 12px 0 0 12px;
     padding: 5px 5px 0 5px;
     object-fit: cover;
 }
@@ -305,10 +298,10 @@ p i {
     width: 260px;
     height: 350px;
     object-fit: cover;
-    border-radius: 5% 5% 0 0;
+    border-radius: 12px 12px 0 0;
 }
 #activities img{
-    border-radius: 5% 5% 0 0;
+    border-radius: 12px 12px 0 0;
     width: 260px;
 }
 /*Footer*/
@@ -319,6 +312,7 @@ footer {
     justify-content: flex-start;
     gap: 250px;
     padding: 20px;
+    box-sizing: border-box;
 }
 /*media queries mobile*/
 @media all and (max-width: 768px)
