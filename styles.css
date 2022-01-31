@@ -167,19 +167,21 @@ form {
     color: black;
 }
 
-/*Filers*/
+/*Filters*/
 
 #filters {
     display: flex;
     flex-wrap: wrap;
     align-items: baseline; 
-    gap: 15px;   
 }
 
 .filters-1 {
     display: flex;
 }
 
+#filters strong {
+    padding-right: 20px;
+}
 #filters i {
     border: solid #DEEBFF 6px;
     display: flex;
@@ -192,7 +194,7 @@ form {
     color: #0065FC;
     padding: 5px;
     position: relative;
-    left: 42px;
+    z-index: 100;
 }
 
 #filters button {
@@ -203,6 +205,8 @@ form {
     border-radius: 50px;
     padding: 10px;
     padding-left: 52px;
+    position:relative;
+    right:42px;
 }
 
 #filters button:hover {
@@ -429,6 +433,14 @@ nav li:hover {
 #filters {
     display: flex;
     flex-direction: column;
+    gap:10px;
+}
+#filters i {
+    left: 0;
+}
+#filters button {
+    position: relative;
+    right: 42px;
 }
 #form button {
     display: none;
@@ -445,6 +457,7 @@ nav li:hover {
     flex-direction: column-reverse;
     width: auto;
     gap: 20px;
+    margin: 0;
 }
 .fotos-1 {
     width: 100%;
