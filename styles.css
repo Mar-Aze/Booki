@@ -67,10 +67,11 @@ nav ul {
 }
 
 nav li {
-    margin: 0 20px 0 20px;
     font-size: 12px;
     border-top: transparent solid 2px;
     padding: 30px 15px 30px 15px;
+    width: 125px;
+    text-align: center;
 }
 
 nav a:visited {
@@ -79,9 +80,11 @@ nav a:visited {
 
 nav a:hover {
     color: #0065FC;
+}
+
+nav li:hover {
     border-top: #0065FC solid 2px;
     padding: 30px 15px 30px 15px;
-    margin: 0 20px 0 20px;
 }
 
 /*Main*/
@@ -416,7 +419,7 @@ nav li {
     border-bottom: solid #F2F2F2 2px;
     width: 100%;
 }
-nav a:hover {
+nav li:hover {
     border-bottom: solid #0065FC 2px;
     border-top: transparent solid 2px;
 }
