@@ -99,7 +99,7 @@ h1 + p {
 
 main article {
     background-color: white;
-    border-radius: 12px;
+    border-radius: 14px;
     box-shadow: 1px 2px 2px 1px #e6e4e4;
     width: 100%;
     margin: 0;
@@ -262,7 +262,7 @@ p i {
     width: 70%;
     background-color: #F2F2F2;
     padding: 30px;
-    border-radius: 12px;
+    border-radius: 14px;
     gap: 20px;
 }
 
@@ -285,7 +285,7 @@ p i {
 .fotos-1 {
     width:100%;
     height: 120px;
-    border-radius: 12px 12px 0 0;
+    border-radius: 14px 14px 0 0;
     padding: 6px 6px 0 6px;
     box-sizing: border-box;
     object-fit: cover;
@@ -314,7 +314,7 @@ p i {
     margin: 0;
     width: 30%;
     padding: 30px;
-    border-radius: 12px;
+    border-radius: 14px;
     justify-content: space-between;
     gap: 20px;
 }
@@ -350,8 +350,8 @@ p i {
 .fotos-2 {
     width: 125px;
     height: 125px;
-    border-radius: 12px 0 0 12px;
-    padding: 5px 5px 0 5px;
+    border-radius: 14px 0 0 14px;
+    padding: 6px 6px 2px 6px;
     object-fit: cover;
 }
 
@@ -396,7 +396,7 @@ p i {
 }
 
 #activities img{
-    border-radius: 12px 12px 0 0;
+    border-radius: 14px 14px 0 0;
     width: 260px;
 }
 
