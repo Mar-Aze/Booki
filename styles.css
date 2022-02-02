@@ -23,6 +23,7 @@ h2 {
 }
 h3 {
     font-size: 13.5px; 
+    margin: 0;
 }
 h4 {
     font-size:13px;
@@ -159,6 +160,10 @@ form {
     border-radius: 0 10px 10px 0;
 }
 
+#form button:hover {
+    color: #DEEBFF;
+}
+
 #optionnal {
     display: none;
 }
@@ -270,16 +275,16 @@ p i {
     margin: 0 0 6.5px 0;
 }
 
+#accommodations p {
+    margin: 5px 0;
+}
+
 .description {
     display: flex;
     flex-direction:column;
     justify-content: space-between;  
-    padding: 0 12px 12px 12px;
+    padding: 8px 12px 12px 12px;
     margin: 0;
-    line-height: 1px;
-}
-.description h3 {
-    margin: 10px 0 8px 0;
 }
 
 .fotos-1 {
@@ -326,13 +331,13 @@ p i {
 }
 
 .normal {
-    position:relative;
-    top: 46px;
+    position:absolute;
+    bottom: 12px;
 }
 
 #special {
-    position:relative;
-    top: 32px;
+    position:absolute;
+    bottom: 14px;
 }
 
 #popular article {
@@ -343,8 +348,8 @@ p i {
 
 #popular .populartext {
     width: 100%;
-    padding-left: 16px;
-    line-height: 12px;
+    padding: 18px 12px 12px 12px;
+    position: relative;
 }
 
 .fotos-2 {
@@ -363,12 +368,12 @@ p i {
 
 #activities h3 {
     padding: 12px;
-    margin: 0;
 }
 
 #all-activities {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     padding: 20px;
     width: auto;
     box-sizing: border-box;
@@ -473,9 +478,6 @@ nav li:hover {
 #popular {
     width: auto;
     border-radius: 0;
-}
-.normal {
-    top: 30px;
 }
 #accommodations-1 {
     background-color: white;
