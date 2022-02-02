@@ -373,7 +373,6 @@ p i {
 #all-activities {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
     padding: 20px;
     width: auto;
     box-sizing: border-box;
@@ -495,6 +494,7 @@ nav li:hover {
     display: flex;
     flex-direction: column;
     gap:20px;
+    box-sizing: border-box;
 }
 #activities h2 {
     margin: 0;
@@ -537,5 +537,26 @@ body{
 }
 #accommodations-2 a {
     width: 50%;  
+    flex: none;
+}
+#all-activities {
+    gap: 8px;
+    flex-wrap:wrap;
+}
+#activities article {
+    width: auto;
+}
+#activities a {
+    width: 100%;
+}
+#activities img {
+    height: 300px;
+    width: 100%;
+}
+.activities{
+    gap: 8px;
+    flex-direction: row;
+    justify-content: space-between;
+    flex: 0 100%;
 }
 }
