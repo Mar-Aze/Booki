@@ -346,12 +346,18 @@ p i {
     padding: 0;
 }
 
+/*#popular a {
+    width: 100%;
+    box-sizing: border-box;
+}*/
 #popular .populartext {
     width: 100%;
     padding: 18px 12px 12px 12px;
     position: relative;
 }
-
+/*#popular .popularimage {
+    width: 30%;
+}*/
 .fotos-2 {
     width: 125px;
     height: 125px;
@@ -539,6 +545,20 @@ body{
     width: 50%;  
     flex: none;
 }
+/*
+#popular article {
+    width: auto;
+    flex-direction: column;
+}
+
+#popular a {
+    width: 100%
+}
+
+#popular img {
+    width: 30%;
+}
+*/
 #all-activities {
     gap: 8px;
     flex-wrap:wrap;
