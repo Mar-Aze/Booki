@@ -330,34 +330,35 @@ p i {
 
 .normal {
     position:absolute;
-    bottom: 12px;
+    bottom: 10px;
 }
 
 #special {
     position:absolute;
-    bottom: 14px;
+    bottom: 12px;
 }
 
 #popular article {
     display: flex;
     margin: 0;
     padding: 0;
+    width: auto;
 }
 
-/*#popular a {
+#popular a {
     width: 100%;
     box-sizing: border-box;
-}*/
+}
 #popular .populartext {
     width: 100%;
-    padding: 18px 12px 12px 12px;
+    padding: 18px 12px 12px 0;
     position: relative;
 }
-/*#popular .popularimage {
-    width: 30%;
-}*/
+#popular .popularimage {
+    width: 100%;
+}
 .fotos-2 {
-    width: 125px;
+    width: 85%;
     height: 125px;
     border-radius: 14px 0 0 14px;
     padding: 6px 6px 2px 6px;
@@ -549,6 +550,10 @@ body{
 
 #popular img {
     height: 95%;
+}
+
+#popular .populartext {
+    width: 50%;
 }
 
 #all-activities {
