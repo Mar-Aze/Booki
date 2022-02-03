@@ -178,17 +178,16 @@ form {
     display: flex;
     flex-wrap: wrap;
     align-items: baseline; 
+    position: relative;
+    gap: 10px;
 }
 
 .filters-1 {
     display: flex;
 }
 
-#filters strong {
-    padding-right: 20px;
-}
 #filters i {
-    border: solid #DEEBFF 6px;
+    border: solid #DEEBFF 5px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -198,7 +197,7 @@ form {
     background-color:#DEEBFF;
     color: #0065FC;
     padding: 5px;
-    position: relative;
+    position: absolute;
     z-index: 100;
 }
 
@@ -211,7 +210,6 @@ form {
     padding: 10px;
     padding-left: 50px;
     position:relative;
-    right:42px;
 }
 
 #filters button:hover {
@@ -383,23 +381,24 @@ p i {
     width: auto;
     box-sizing: border-box;
     margin: 0;
+    gap: 20px;
 }
 
 .activities {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: auto;
+    width: 100%;
     margin: 0;
 }
 
 #activities article {
-    width: 260px;
+    width: auto;
     height: auto;
 }
 
 .fotos-3{
-    width: 260px;
+    width: 100%;
     height: 350px;
     object-fit: cover;
     border-radius: 12px 12px 0 0;
@@ -407,7 +406,10 @@ p i {
 
 #activities img{
     border-radius: 14px 14px 0 0;
-    width: 260px;
+    width: 100%;
+}
+#activities a {
+    width: 100%;
 }
 
 /*Footer*/
@@ -454,10 +456,6 @@ nav li:hover {
 }
 #filters i {
     left: 0;
-}
-#filters button {
-    position: relative;
-    right: 42px;
 }
 #form button {
     display: none;
@@ -514,19 +512,14 @@ nav li:hover {
 }
 .activities {
     gap: 20px;
-    width: 100%;
 }
 #activities article {
     width: 100%;
 }
 #activities img {
     height: 120px;
-    width: 100%;
 }
 .fotos-3 {
-    width: 100%;
-}
-#activities a {
     width: 100%;
 }
 footer {
@@ -537,7 +530,7 @@ footer {
 
 /*media queries pad*/
 
-@media screen and (max-width: 992px) and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 992px) {
 body{
     width: auto;
 }
@@ -545,38 +538,35 @@ body{
     width: 50%;  
     flex: none;
 }
-/*
+
 #popular article {
-    width: auto;
-    flex-direction: column;
+    height: 100%;
 }
 
 #popular a {
-    width: 100%
+    height: 33%;
 }
 
 #popular img {
-    width: 30%;
+    height: 95%;
 }
-*/
+
 #all-activities {
     gap: 8px;
     flex-wrap:wrap;
 }
-#activities article {
-    width: auto;
-}
-#activities a {
-    width: 100%;
-}
+
 #activities img {
     height: 300px;
-    width: 100%;
 }
 .activities{
     gap: 8px;
     flex-direction: row;
     justify-content: space-between;
     flex: 0 100%;
+}
+footer {
+    justify-content: space-between;
+    gap: 0;
 }
 }
