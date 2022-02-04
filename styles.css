@@ -547,21 +547,29 @@ footer {
 body{
     width: auto;
 }
+
+#accommodations {
+    flex-direction: column-reverse;
+}
+
+#accommodations-1 {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#popular {
+    width: 100%;
+    box-sizing: border-box;
+}
+
 #accommodations-2 a {
     width: 50%;  
     flex: none;
 }
 
-#popular article {
-    height: 100%;
-}
-
-#popular a {
-    height: 33%;
-}
-
 #popular img {
-    height: 95%;
+    height: 180px;
+    width: 95%;
 }
 
 #popular .populartext {
