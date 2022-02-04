@@ -178,8 +178,13 @@ form {
     display: flex;
     flex-wrap: wrap;
     align-items: baseline; 
-    position: relative;
     gap: 10px;
+}
+
+#filters-0 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
 }
 
 .filters-1 {
@@ -209,7 +214,6 @@ form {
     border-radius: 50px;
     padding: 10px;
     padding-left: 50px;
-    position:relative;
 }
 
 #filters button:hover {
@@ -462,8 +466,8 @@ h1 + p {
     flex-direction: column;
     gap:10px;
 }
-#filters i {
-    left: 0;
+#form input {
+    width: 80%;
 }
 #form button {
     display: none;
@@ -474,7 +478,8 @@ h1 + p {
     background-color: #0065FC;
     color: white;
     border: solid #0065FC 10px;
-    border-radius: 0 10px 10px 0;
+    border-radius: 12px;
+    right: 8px;
 }    
 #accommodations {
     flex-direction: column-reverse;
