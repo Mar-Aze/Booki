@@ -447,8 +447,15 @@ nav li:hover {
     border-bottom: solid #0065FC 2px;
     border-top: transparent solid 2px;
 }
+main h1 {
+    margin: 30px 30px 6px 30px
+}
+h1 + p {
+    margin: 0 30px 30px 30px;
+}
 #search {
     flex-direction: column;
+    margin: 30px;
 }
 #filters {
     display: flex;
