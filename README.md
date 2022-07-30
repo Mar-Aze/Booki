@@ -4,7 +4,7 @@ Intégration de la maquette Booki en HTML et CSS.
 
 ## Lien Page Web
 
-https://mar-aze.github.io/OpenclassroomsProject/
+https://mar-aze.github.io/Booki/
 
 ## Spécifications techniques et fonctionnelles du projet
 
